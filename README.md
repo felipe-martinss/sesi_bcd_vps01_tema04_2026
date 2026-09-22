@@ -43,3 +43,17 @@
 | Peca_Manutencao | id_manutencao | int |  | Identificador da manutenção, FK referenciando manutencao(id) |
 | Peca_Manutencao | id_peca | int |  | Identificador da peça, FK referenciando peca(id) |
 | Peca_Manutencao | quantidade | int |  | Quantidade da peça utilizada na manutenção |
+
+
+<div align="left">
+  <br><br/>
+  <img src="MER DER Conceitual.drawio.png" alt="image" width="1200" </a>
+  <img src="MER DER Lógico.drawio.png" alt="image" width="1200"
+  </a>
+
+<p align="left"><a href="equipamento.csv">equipamento.csv</a></p>
+<p align="left"><a href="ordem_manutencao.csv">ordem_manutencao.csv</a></p>
+<p align="left"><a href="tecnico.csv">tecnico.csv</a></p>
+<p align="left"><a href="peca.csv">peca.csv</a></p>
+<p align="left"><a href="manutencao.csv">manutencao.csv</a></p>
+<p align="left"><a href="peca_manutencao.csv">peca_manutencao.csv</a></p>
