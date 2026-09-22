@@ -22,7 +22,7 @@ Um banco de dados de manutenção de equipamentos em uma fábrica, onde o objeti
 | Ordem_Manutencao | data_inicio | date |  | Data prevista ou real de início da manutenção |
 | Ordem_Manutencao | data_fim | date |  | Data prevista ou real de término da manutenção |
 | Ordem_Manutencao | status | enum |  | Status da ordem ('ATIVO' ou 'INATIVO') |
-| Ordem_Manutencao | prioridade | varchar | 100 | Nível de prioridade (ex: Alta, Média, Baixa) |
+| Ordem_Manutencao | prioridade | varchar | 100 | Nível de prioridade (ex: Urgente, Alta, Média, Baixa) |
 | Tecnico | id | int |  | Identificador, PK |
 | Tecnico | nome | varchar | 100 | Nome completo do técnico |
 | Tecnico | especialidade | varchar | 100 | Especialidade técnica do profissional |
