@@ -1,0 +1,5 @@
+﻿id,nome,tipo,marca,modelo,numero_serie,data_aquisicao,status,setor,valor_da_aquisicao
+1,Controle de Play Station 5,Controle,Play Station,DualSense,G11A01M103427954B,2026-07-21,ATIVO,Testes,450.0
+2,Empilhadeira Elétrica,Maquinário,Toyota,8FBN25,EP20260981X,2023-03-15,ATIVO,Logística,85000.0
+3,Torno CNC,Usinagem,Romi,Centur 30D,TRM9928172,2021-11-02,ATIVO,Produção,120000.0
+4,Controle Remoto,Controle,LG,SolarCell Remote,CMP881203,2022-05-10,INATIVO,Manutenção,73.0

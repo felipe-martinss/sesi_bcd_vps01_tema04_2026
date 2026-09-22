@@ -1,0 +1,5 @@
+﻿id,id_ordem,id_tecnico,descricao_servico,data_execucao,horas_trabalhadas,observacoes
+1,1,3,Substituição do analógico esquerdo e limpeza interna.,2026-08-01,01:30:00,Equipamento testado e validado.
+2,2,1,Troca de óleo hidráulico e lubrificação geral das engrenagens.,2026-08-11,04:00:00,Nenhuma irregularidade encontrada.
+3,3,2,Substituição da correia gasta e alinhamento do eixo.,2026-09-02,03:15:00,Recomenda-se nova verificação em 30 dias.
+4,4,3,Substituição do Emissor de LED do controle Remoto.,2026-09-15,01:10:00,A troca foi bem sucedida e não houve nenhum ocorrido durante o processo.

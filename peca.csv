@@ -1,0 +1,5 @@
+﻿id,nome,descricao,quantidade_estoque,estoque_minimo,preco
+1,Módulo Analógico PS5,Componente para reparo de drift no controle,25,5,35.0
+2,Óleo Lubrificante ISO VG 68,Galão de 5L para sistemas hidráulicos,12,3,150.0
+3,Correia de Transmissão,Correia dentada em borracha reforçada,8,2,85.5
+4,LED emissor infravermelho,LED que faz a emissão do infravermelho,15,4,15.0
