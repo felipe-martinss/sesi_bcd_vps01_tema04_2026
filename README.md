@@ -1,4 +1,4 @@
-**MER Dicionário de dados, Sistema: Manutenção de Equipamentos**
+## Dicionário de dados
 
 | Entidade | Atributo | Tipo | Tamanho | Descrição |
 | --- | --- | --- | --- | --- |
