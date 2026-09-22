@@ -26,7 +26,7 @@ insert into manutencao (id_ordem, id_tecnico, descricao_servico, data_execucao, 
 (1, 3, 'Substituição do analógico esquerdo e limpeza interna.', '2026-08-01', '01:30:00', 'Equipamento testado e validado.'),
 (2, 1, 'Troca de óleo hidráulico e lubrificação geral das engrenagens.', '2026-08-11', '04:00:00', 'Nenhuma irregularidade encontrada.'),
 (3, 2, 'Substituição da correia gasta e alinhamento do eixo.', '2026-09-02', '03:15:00', 'Recomenda-se nova verificação em 30 dias.'),
-(4, 3, 'Substituição do Emissor de LED do controle Remoto.', '2026-09-15', '1:10:00', 'A troca foi bem sucedida e não houve nenhum ocorrido durante o processo.');
+(4, 3, 'Substituição do Emissor de LED do controle Remoto.', '2026-09-15', '01:10:00', 'A troca foi bem sucedida e não houve nenhum ocorrido durante o processo.');
 
 insert into peca_manutencao (id_manutencao, id_peca, quantidade) values
 (1,1,1),
