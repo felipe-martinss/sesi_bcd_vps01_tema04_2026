@@ -39,7 +39,6 @@
 | Manutencao | data_execucao | date |  | Data em que a manutenção foi executada |
 | Manutencao | horas_trabalhadas | time |  | Total de horas trabalhadas no serviço |
 | Manutencao | observacoes | text |  | Observações gerais sobre a execução do serviço |
-
 | Peca_Manutencao | id | int |  | Identificador, PK |
 | Peca_Manutencao | id_manutencao | int |  | Identificador da manutenção, FK referenciando manutencao(id) |
 | Peca_Manutencao | id_peca | int |  | Identificador da peça, FK referenciando peca(id) |
