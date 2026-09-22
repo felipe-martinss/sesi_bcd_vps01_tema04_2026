@@ -36,7 +36,7 @@ Um banco de dados de manutenção de equipamentos em uma fábrica, onde o objeti
 | Peca | preco | decimal | 10,2 | Preço unitário da peça |
 | Manutencao | id | int |  | Identificador, PK |
 | Manutencao | id_ordem | int |  | Identificador da ordem de manutenção, FK referenciando ordem_manutencao(id) |
-| Manutencao | id_tecnico | int |  |Identificador da ordem de técnico, FK referenciando tecnico(id) |
+| Manutencao | id_tecnico | int |  |Identificador do técnico, FK referenciando tecnico(id) |
 | Manutencao | descricao_servico | varchar | 100 | Descrição do serviço executado pelo técnico |
 | Manutencao | data_execucao | date |  | Data em que a manutenção foi executada |
 | Manutencao | horas_trabalhadas | time |  | Total de horas trabalhadas no serviço |
