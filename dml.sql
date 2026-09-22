@@ -17,10 +17,10 @@ insert into peca (nome, descricao, quantidade_estoque, estoque_minimo, preco) va
 ('LED emissor infravermelho', 'LED que faz a emissão do infravermelho', 15, 4, 15.00);
 
 insert into ordem_manutencao (id_equipamento, tipo, descricao, data_abertura, data_inicio, data_fim, status, prioridade) values
-(1, 'Corretiva', 'Troca de analógico com drift', '2026-08-01', '2026-08-01', '2026-08-02', 'ATIVO', 'Média'),
-(2, 'Preventiva', 'Revisão periódica de 1000 horas', '2026-08-10', '2026-08-11', '2026-08-11', 'ATIVO', 'Alta'),
+(1, 'Corretiva', 'Troca de analógico com drift', '2026-08-01', '2026-08-01', '2026-08-02', 'INATIVO', 'Média'),
+(2, 'Preventiva', 'Revisão periódica de 1000 horas', '2026-08-10', '2026-08-11', '2026-08-11', 'INATIVO', 'Alta'),
 (3, 'Corretiva', 'Ajuste e troca de correia de transmissão', '2026-09-01', '2026-09-02', '2026-09-03', 'ATIVO', 'Urgente'),
-(4, 'Corretiva', 'Troca do LED emissor', '2026-09-15', '2026-06-15', '2026-06-15', 'ATIVO', 'Baixa');
+(4, 'Corretiva', 'Troca do LED emissor', '2026-09-15', '2026-09-15', '2026-09-15', 'INATIVO', 'Baixa');
 
 insert into manutencao (id_ordem, id_tecnico, descricao_servico, data_execucao, horas_trabalhadas, observacoes) values
 (1, 3, 'Substituição do analógico esquerdo e limpeza interna.', '2026-08-01', '01:30:00', 'Equipamento testado e validado.'),
