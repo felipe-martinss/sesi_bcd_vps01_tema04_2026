@@ -1,9 +1,9 @@
 use manutencao_equipamentos;
 insert into equipamento (nome, tipo, marca, modelo, numero_serie, data_aquisicao, status, setor, valor_da_aquisicao) values
-('Controle de Play Station 5', 'Controle', 'Play Station', 'DualSense', 'G11A01M103427954B', '2026-07-21', 'CONCLUIDO', 'Testes', 450.00),
-('Empilhadeira Elétrica', 'Maquinário', 'Toyota', '8FBN25', 'EP20260981X', '2023-03-15', 'CONCLUIDO', 'Logística', 85000.00),
-('Torno CNC', 'Usinagem', 'Romi', 'Centur 30D', 'TRM9928172', '2021-11-02', 'CONCLUIDO', 'Produção', 120000.00),
-('Controle Remoto', 'Controle', 'LG', 'SolarCell Remote', 'CMP881203', '2022-05-10', 'CONCLUIDO', 'Manutenção', 73.00);
+('Controle de Play Station 5', 'Controle', 'Play Station', 'DualSense', 'G11A01M103427954B', '2026-07-21', 'ATIVO', 'Testes', 450.00),
+('Empilhadeira Elétrica', 'Maquinário', 'Toyota', '8FBN25', 'EP20260981X', '2023-03-15', 'ATIVO', 'Logística', 85000.00),
+('Torno CNC', 'Usinagem', 'Romi', 'Centur 30D', 'TRM9928172', '2021-11-02', 'ATIVO', 'Produção', 120000.00),
+('Controle Remoto', 'Controle', 'LG', 'SolarCell Remote', 'CMP881203', '2022-05-10', 'ATIVO', 'Manutenção', 73.00);
 
 insert into tecnico (nome, especialidade, telefone, email) values
 ('Carlos Eduardo Silva', 'Mecânica Industrial', '19998765432', 'carlos.silva@empresa.com'),
@@ -17,10 +17,10 @@ insert into peca (nome, descricao, quantidade_estoque, estoque_minimo, preco) va
 ('LED emissor infravermelho', 'LED que faz a emissão do infravermelho', 15, 4, 15.00);
 
 insert into ordem_manutencao (id_equipamento, tipo, descricao, data_abertura, data_inicio, data_fim, status, prioridade) values
-(1, 'Corretiva', 'Troca de analógico com drift', '2026-08-01', '2026-08-01', '2026-08-02', 'CONCLUIDO', 'Média'),
-(2, 'Preventiva', 'Revisão periódica de 1000 horas', '2026-08-10', '2026-08-11', '2026-08-11', 'CONCLUIDO', 'Alta'),
-(3, 'Corretiva', 'Ajuste e troca de correia de transmissão', '2026-09-01', '2026-09-02', '2026-09-03', 'CONCLUIDO', 'Urgente'),
-(4, 'Corretiva', 'Troca do LED emissor', '2026-09-15', '2026-06-15', '2026-06-15', 'CONCLUIDO', 'Baixa');
+(1, 'Corretiva', 'Troca de analógico com drift', '2026-08-01', '2026-08-01', '2026-08-02', 'ATIVO', 'Média'),
+(2, 'Preventiva', 'Revisão periódica de 1000 horas', '2026-08-10', '2026-08-11', '2026-08-11', 'ATIVO', 'Alta'),
+(3, 'Corretiva', 'Ajuste e troca de correia de transmissão', '2026-09-01', '2026-09-02', '2026-09-03', 'ATIVO', 'Urgente'),
+(4, 'Corretiva', 'Troca do LED emissor', '2026-09-15', '2026-06-15', '2026-06-15', 'ATIVO', 'Baixa');
 
 insert into manutencao (id_ordem, id_tecnico, descricao_servico, data_execucao, horas_trabalhadas, observacoes) values
 (1, 3, 'Substituição do analógico esquerdo e limpeza interna.', '2026-08-01', '01:30:00', 'Equipamento testado e validado.'),

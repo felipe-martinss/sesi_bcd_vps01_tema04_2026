@@ -12,7 +12,7 @@ create table equipamento(
     modelo varchar(100) not null,
     numero_serie varchar(100) not null,
     data_aquisicao date not null,
-    status enum('CONCLUIDO','NÃO CONCLUIDO'),
+    status enum('ATIVO','INATIVO'),
     setor varchar(100) not null,
     valor_da_aquisicao decimal(10, 2) not null
 );
@@ -25,7 +25,7 @@ create table ordem_manutencao(
     data_abertura date not null, 
     data_inicio date not null,
     data_fim date not null,
-    status enum('CONCLUIDO', 'NÃO CONCLUIDO'), 
+    status enum('ATIVO', 'INATIVO'), 
     prioridade varchar(100) not null
 );
 
