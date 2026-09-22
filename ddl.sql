@@ -25,7 +25,7 @@ create table ordem_manutencao(
     data_abertura date not null, 
     data_inicio date not null,
     data_fim date not null,
-    status enum('ATIVO', 'INATIVO'), 
+    status enum('CONCLUIDO', 'NÃO CONCLUIDO'), 
     prioridade varchar(100) not null
 );
 
